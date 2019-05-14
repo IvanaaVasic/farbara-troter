@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "HelveticaNeueLight";
+    src: url(../fonts/HelveticaNeueLight.woff) format("woff");
+}
+
+@media screen and (max-width:768px) {
+    .menu-bar {
+        float: none;
+        clear: left;
+    }
+    .bottom {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        float: none;
+    }
+    .header {
+        margin: 0 auto;
+        /* height: 70px; */
+        padding: 0;
+    }
+    .menu {
+        float: none;
+        padding-right: 0;
+    }
+    .home {
+        float: none;
+        margin: 0;
+    }
+    .main-content {
+        margin: 0 auto;
+    }
+    h1 {
+        z-index: 2;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        font-weight: normal;
+        font-family: HelveticaNeueLight;
+    }
+    .img-holder {
+        position: relative;
+        width: 768px;
+        float: none;
+    }
+    .slika {
+        width: 768px;
+        height: auto;
+    }
+    .logo {
+        margin: 10px auto 0;
+        float: none;
+    }
+    .vise {
+        background-color: transparent;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        border: 1px solid black;
+        display: inline-block;
+        cursor: pointer;
+        color: black;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 6px 15px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #b23e35;
+    }
+    .vise:hover {
+        background-color: #eb675e;
+    }
+}
